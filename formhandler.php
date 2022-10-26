@@ -5,7 +5,7 @@ $gender = $-POST['gender'];
 $email = $-POST['email'];
 $phone = $-POST['phone'];
 
-$emailfrom = 'Thika High School';
+$emailfrom = 'https://stevemacha123.github.io/THS/home page.html';
 
 $emailsubject = 'New Student Application' ;
 
