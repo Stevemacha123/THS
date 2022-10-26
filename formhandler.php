@@ -5,7 +5,7 @@ $gender = $-POST['gender'];
 $email = $-POST['email'];
 $phone = $-POST['phone'];
 
-$emailfrom = 'https://stevemacha123.github.io/THS/formhandler.php';
+$emailfrom = 'https://stevemacha123.github.io/THS/';
 
 $emailsubject = 'New Student Application' ;
 
