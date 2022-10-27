@@ -17,9 +17,9 @@ $emailbody = "User Name: $name.\n"
 
 $to = 'machasteve1@gmail.com';
 
-$headers = "From: $emailfrom \r\n";
+$headers = "From: $email,\r\n";
 
-$headers = "Reply-To: $email \r\n";
+$headers = "Reply-To: $email,\r\n";
 
 mail($to,$emailsubject,$emailbody,$headers);
 
