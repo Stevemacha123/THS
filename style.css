@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---HOME PAGE HEADER---*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/administration\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+/*---ABOUT HEADER---*/
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Students\ 2\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+/*---LOGIC PAGE HEADER---*/
+.header3{
+   padding-top: 20px;
+   background-color: black;
+}
+/*CONTACT PAGE HEADER---*/
+.header4{
+    padding-top: 20px;
+    min-height: 100vh;
+    background-color: black;
+
+}
+/*---ALL LOGOS---*/
+.logo img{
+    width: 100px;
+    border-radius: 50px;
+}
+.logo2 img{
+    width: 100px;
+    border-radius: 50px;
+}
+.logo3 img{
+    width: 100px;
+    border-radius: 50px;
+}
+.logo4 img{
+    width: 100px;
+    border-radius: 50px;
+}
+/*HOME,ABOUT $ LOGIC NAVS*/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: gold;
+    text-decoration:none;
+}
+/*---CONTACT NAVS---*/
+.nav-links2{
+    flex: 1;
+    text-align: right;
+}
+.nav-links2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links2 ul li a{
+    color: gold;
+    text-decoration:none;
+}
+/*---TEXT BOX---*/
+.text-box{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 70px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: white;
+
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: gold;
+    border: 1px solid gold;
+    padding: 12px 34px;
+    padding-top: 10px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/*---ABOUT---*/
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.about p{
+    font-size: 30px;
+
+}
+/*---FOOTER---*/
+.footer{
+    text-align:right;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+.footer h4{
+    font-size: x-large;
+}
+.footer p{
+    color: brown;
+    font-size: large;
+}
+.image-files h3{
+    text-align: center;
+    color: brown;
+    padding-top: 50px;
+    font-size: x-large;
+}
+/*---HOME PAGE---*>
+/*---ROWS---*/
+.row{
+    padding-left: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.content h4{
+    color: brown;
+
+}
+.content img{
+    width: 300px;
+}
+.row2{
+    padding-left: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content2 h4{
+    color: brown;
+
+}
+.content2 img{
+    width: 300px;
+}
+.row3{
+    padding-left: 100px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content3 h4{
+    color: brown;
+}
+.content3 img{
+    width: 300px;
+}
+/*---ABOUT PAGE---*/
+.about h1{
+    font-size: x-large;
+    color: brown;
+}
+.about p{
+    padding-top: 20px;
+    color: purple;
+}
+.hist-img img{
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 550px;
+}
+/*---LOGIC PAGE---*/
+.logic-center h1{
+    padding-top: 100px;
+    color: brown;
+    text-align: center;
+
+}
+/*---CONTACT PAGE---*/
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.location h1{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.location h3{
+    padding-top: 20px;
+    text-align: center;
+    color: green;
+}
+.location iframe{
+    padding-top: 10px;
+    width: 100%;
+}
+.contact-info p{
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+/*---Registration form---*/
+.form-heading{
+    padding-left:600px;
+    padding-top: 30px;
+    color: brown;
+    
+}
+.regform{
+    padding-left: 600px;
+    padding-top: 10px;
+    color: black;
+    
+
+}
+.print h2{
+    padding-top: 20px;
+    text-align: center;
+    color: brown;
+}
+.print p{
+    padding-top: 5px;
+    text-align: center;
+    color: brown;
+    font-size: large;
+}
+.btn{
+    padding-top: 5px;
+    padding-left: 750px;
+}
